@@ -1,32 +1,14 @@
-{ "myObj": [{
-    "id": 1,
-    "from": "Delainey Bredes"
-}, {
-    "id": 2,
-    "from": "Vail Bigg"
-}, {
-    "id": 3,
-    "from": "Guendolen Stook"
-}, {
-    "id": 4,
-    "from": "Faulkner Dempster"
-}, {
-    "id": 5,
-    "from": "Mitchael Cessford"
-}, {
-    "id": 6,
-    "from": "Katlin Orthmann"
-}, {
-    "id": 7,
-    "from": "Grover Espley"
-}, {
-    "id": 8,
-    "from": "Kaja Paszak"
-}, {
-    "id": 9,
-    "from": "Francklyn Cominetti"
-}, {
-    "id": 10,
-    "from": "Cele Pietranek"
-}]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
